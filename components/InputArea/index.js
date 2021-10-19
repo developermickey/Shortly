@@ -34,7 +34,7 @@ return (
         <label className="user__link-label" htmlFor="user__link">Please add a link</label>
         <button className="btn--rect btn submit__btn">Shorten it!</button>
       </form>
-{err&&<p>Please Provide Valid URL</p>}
+{err&&<p>The input field is empty</p>}
  
       <div className="link__output-boxes">
         {shorturl&&<div className="link__output-box data-box--1">
