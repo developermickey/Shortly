@@ -3,7 +3,10 @@ import First from '../../images/icon-brand-recognition.svg';
 import Second from '../../images/icon-detailed-records.svg';
 import Last from '../../images/icon-fully-customizable.svg';
 
+
 const AdvancedStatistics = () => {
+
+
     return (
 
   <section className="statistics">
